@@ -15,13 +15,13 @@ return array(
         '*/.ht*',
         'resources',
         'resources/*',
-		'ErrorFiles',
-		'ErrorFiles/*',
+	'ErrorFiles',
+	'ErrorFiles/*',
         'analytics.inc',
         'header.php',
         'footer.php',
-		'*/README.*',
-		'README.*'
+	'*/README.*',
+	'README.*'
     ),
 
     // Files that, if present in a directory, make the directory
@@ -30,8 +30,8 @@ return array(
         'index.htm',
         'index.html',
         'index.php',
-		'*/README.*',
-		'README.*'
+	'*/README.*',
+	'README.*'
     ),
 
     // 文件 hash 阈值
