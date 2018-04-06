@@ -2,12 +2,11 @@
 
 ### 魔改特点：
 
-我之所以使用Directory Lister，就是因为这个程序非常的简洁，符合我心中对 目录列表程序的定义，在使用期间，根据我个人喜好和审美做了一些改变。
 - 界面式样魔改
 - 支持中文目录和文件名
 - 支持显示各文件夹内的简介说明
 - 默认调用的各种CDN文件本地化
-- 等等 ...
+- any else ...
 
 ### 演示示例：
 
@@ -17,7 +16,7 @@
 
 下载压缩文件后，解压并上传到已经搭建好 PHP和HTTP环境的服务器中（lnmp.org），然后即可上传文件和创建文件夹了！
 
-Github打包：https://github.com/ToyoDAdoubi/DirectoryLister/archive/master.zip
+Github打包：https://github.com/junnyhaha/DirectoryLister/archive/master.zip
 
 逗比云打包：https://softs.fun/Website/Directory%20Lister%E9%AD%94%E6%94%B9%E7%89%88%28by-Toyo%29%20v2.6.1.zip
 
@@ -55,17 +54,15 @@ sed -i 's/,scandir//g' /usr/local/php/etc/php.ini
 # 重启 PHP生效
 ```
 
-#### 简介功能说明
-
-我也不知道该给这个功能起什么名字，好捉急偶。
+#### README功能
 
 使用这个功能，需要打开` resources\themes\bootstrap\index.php `文件，找到第五行的：
 ``` bash
 $md_path = explode("com", $md_path_all);
 ```
-把` com `改成你的域名后缀(比如` xxx.cn `就是改成` cn `)，当初只是自用，现在一公开开源，我给忘了。
+把` com `改成你的域名后缀(比如` xxx.cn `就是改成` cn `)
 
-反正就是每个文件夹下面放一个` README.html `文件，这个文件里写着 简介说明内容即可。
+每个文件夹下面放一个` README.html `文件，这个文件里写着简介说明内容即可。
 
 为了避免中文乱码，把` README.html `文件用 UTF-8无BOM编码 保存！
 
@@ -91,6 +88,6 @@ $md_path = explode("com", $md_path_all);
 
 ——————
 
-我的博客 逗比根据地(需挂代理)：https://doub.io/dbrj-3/
+Power by https://doub.io/dbrj-3/
 
-本程序基于 Directory Lister原版魔改：http://www.directorylister.com/
+base on Directory Lister http://www.directorylister.com/
