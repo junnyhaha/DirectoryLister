@@ -1,4 +1,4 @@
-# 一个逗比魔改的Directory Lister~
+# Directory Lister v2.6.1 -逗比魔改版
 
 ### 魔改特点：
 
